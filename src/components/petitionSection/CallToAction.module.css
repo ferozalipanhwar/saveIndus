@@ -1,0 +1,84 @@
+.callToAction {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Petition Section */
+.petition {
+  margin-bottom: 40px;
+}
+
+/* Letter Campaign */
+.letterCampaign {
+  margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .input,
+  .textarea {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    font-size: 0.9rem;
+  }
+}
